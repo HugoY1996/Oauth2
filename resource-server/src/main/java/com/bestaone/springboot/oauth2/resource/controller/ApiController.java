@@ -58,8 +58,8 @@ public class ApiController {
     public Map<String, String> profile() {
         Map<String, String> map = new HashMap<>();
         map.put("id","10001");
-        map.put("name","bestaone");
-        map.put("email","117919482@qq.com");
+        map.put("name","bjtu");
+        map.put("email","1195741222@qq.com");
         return map;
     }
 
