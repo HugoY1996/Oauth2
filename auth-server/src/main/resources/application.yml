@@ -1,0 +1,15 @@
+
+server.port: 8081
+
+mybatis:
+  config-locations: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.bestaone.springboot.oauth2.aurhserver.domain
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oauth2
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 123456
+
