@@ -1,0 +1,4 @@
+language: java
+os: windows
+notifications:      # 每次构建的时候是否通知，如果不想收到通知邮箱（个人感觉邮件贼烦），那就设置false吧
+  email: 1195741222@qq.com
